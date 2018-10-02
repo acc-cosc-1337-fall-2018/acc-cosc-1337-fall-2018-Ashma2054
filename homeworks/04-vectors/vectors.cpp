@@ -2,13 +2,13 @@
 
 int vector_of_ints()
 {
-	std::vector<int>numbers();
+	std::vector<int>numbers ;
 	return numbers;
 }
 
 int get_max_from_vector(vector<int>& numbers)
 {
-	//write your code here
+	
 
 	return 0;
 }
