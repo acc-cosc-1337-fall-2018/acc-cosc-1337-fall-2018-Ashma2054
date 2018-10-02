@@ -3,10 +3,12 @@
 
 using std::vector; using std::string;
 
+int vector_of_ints();
+
 /*
 Write a value return function with a vector of ints list reference parameter
 that returns the maximum value of the list
-
+  
 @param numbers is a reference to a vector of integers
 @return the max value in the vector
 
@@ -22,7 +24,8 @@ WRITE THE PARAM AND RETURN COMMENTS BELOW(SEE MY EXAMPLE ABOVE)
 
 */
 //write function prototype
-
+int sum_of_squares(vector<int>& numbers);
+ 
 
 
 
@@ -40,6 +43,7 @@ string in a vector of strings
 void replace(vector<string>& strings, const string& old, const string& new_val);
 
 
+
 /*
 Write a function named is_prime with an integer parameter that
 given a number returns true if prime or false if not prime
@@ -48,6 +52,7 @@ given a number returns true if prime or false if not prime
 @return: bool if prime False if not
 */
 //write prototype here
+int is_prime(int number);
 
 
 
@@ -72,3 +77,4 @@ Psuedocode:
 	make sure to return vector of ints primes after loop exits
 */
 //write function prototype here
+int vector_of_primes(int number);

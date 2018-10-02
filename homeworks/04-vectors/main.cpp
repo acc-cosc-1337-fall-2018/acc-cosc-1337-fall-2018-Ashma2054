@@ -1,6 +1,5 @@
-//write include statement for vectors header
-//write include statement for cout object
-
+#include"vector.h"
+#include<iostream>
 
 //dont forget using statement for cout object
 int main() 
