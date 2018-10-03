@@ -1,4 +1,4 @@
-#include"vector.h"
+#include"vectors.h"
 #include<iostream>
 
 //dont forget using statement for cout object
