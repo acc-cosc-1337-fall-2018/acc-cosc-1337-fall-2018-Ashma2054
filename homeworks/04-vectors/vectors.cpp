@@ -1,10 +1,10 @@
 #include "vectors.h"
 
-int vector_of_ints()
-{
-	std::vector<int>numbers ;
-	return numbers;
-}
+//vector<int> vector_of_ints()  // NO need to pass vector to each function,, create vector in each function
+//{
+	//std::vector<int>numbers ;
+	//return numbers;
+//}
 
 int get_max_from_vector(vector<int>& numbers)
 {
@@ -33,7 +33,7 @@ void replace(vector<string>& strings, const string& old, const string& new_val)
 	//in vectors_test.cp)
 }
 
-int is_prime(int number)
+bool is_prime(int number)
 {
 	//write is_prime function code here
 	return 0;

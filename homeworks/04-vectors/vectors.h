@@ -3,7 +3,7 @@
 
 using std::vector; using std::string;
 
-int vector_of_ints();
+//int vector_of_ints();
 
 /*
 Write a value return function with a vector of ints list reference parameter
@@ -52,7 +52,7 @@ given a number returns true if prime or false if not prime
 @return: bool if prime False if not
 */
 //write prototype here
-int is_prime(int number);
+bool is_prime(int whole_number);
 
 
 

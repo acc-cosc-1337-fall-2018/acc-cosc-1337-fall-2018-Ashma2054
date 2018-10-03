@@ -3,13 +3,13 @@
 #define INVOICE_H
 #include<vector>
 
-using std::vector
+using std::vector;
 
 class Invoice
 {
 public:
-	void add_invoice_detail(InvoiceDetail detail);
-	double get_total()
+	void add_invoice_detail(InvoiceDetail details);
+	double get_total();
 
 private:
 	vector<InvoiceDetail> invoice_details;
