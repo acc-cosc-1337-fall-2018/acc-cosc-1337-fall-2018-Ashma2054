@@ -4,7 +4,6 @@
 #include "invoice.h"
 
 TEST_CASE("Test get extended cost")
-
 {
 	InvoiceDetail InvoiceDetail(10,10);
 	REQUIRE(InvoiceDetail.get_extended_cost() == 100);
