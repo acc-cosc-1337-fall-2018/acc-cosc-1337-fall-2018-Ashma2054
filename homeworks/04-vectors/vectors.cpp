@@ -1,21 +1,30 @@
 #include "vectors.h"
 
-//vector<int> vector_of_ints()  // NO need to pass vector to each function,, create vector in each function
-//{
-	//std::vector<int>numbers ;
-	//return numbers;
-//}
+using std::vector;
+
 
 int get_max_from_vector(vector<int>& numbers)
 {
-	
+	vector<int> numbers;
+	int max_number;
+	for (auto i : numbers)
+	{
+		// std::max_element(numbers);
+	}
 
 	return 0;
 }
 
 int sum_of_squares(vector<int>& numbers)
 {
-	return 0;
+	vector<int> numbers;
+	int squared_number{ 0 };
+
+	for (auto i : numbers)
+	{
+		squared_number = i * i;
+	}
+	return squared_number;
 }
 
 //write the code for sum_of_squares function here
@@ -36,6 +45,11 @@ void replace(vector<string>& strings, const string& old, const string& new_val)
 bool is_prime(int number)
 {
 	//write is_prime function code here
+	for ( int i=1;i++;)
+	{
+		if (number % i =0) 
+	} 
+
 	return 0;
 }
 
@@ -49,4 +63,3 @@ int vector_of_primes(int number)
 
 
 
-//write vector_of_primes function code here
