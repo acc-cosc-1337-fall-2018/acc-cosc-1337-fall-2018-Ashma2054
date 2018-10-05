@@ -10,9 +10,11 @@ class Invoice
 public:
 	void add_invoice_detail(InvoiceDetail details);
 	double get_total() const;
+	friend Invoice operator+(const Invoice& i, const Invoice& i2);
 
 private:
 	vector<InvoiceDetail> invoice_details;
+	double total{ 0 };
 
 
 };
