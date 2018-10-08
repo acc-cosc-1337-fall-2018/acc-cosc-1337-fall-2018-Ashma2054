@@ -7,9 +7,10 @@ int get_max_from_vector(vector<int>& numbers)
 {
 	vector<int> vector1;
 	int max_number{0};
-	for (auto i : vector1)
+	for (int i =0; i <=vector1.size(); i++)
 	{
-		// std::max_element(numbers);
+		if (vector1[i] > max_number)
+			max_number = vector1[i];
 	}
 
 	return max_number;
@@ -41,17 +42,19 @@ void replace(vector<string>& strings, const string& old, const string& new_val)
 	//Also there is no need to return the strings vector because a reference
 	//points to a previously declared vector of strings variable(see test case 
 	//in vectors_test.cp)
-	
+
 	vector<string> names;
-	
-	//int index = names[old];
-	//names[index] = new_val;
-	
+
+	for (int i =0; i<= names.size();i++)
+	{
+		if (names[i] == old) 
+		names[i] = new_val;
+	}
+
 }
 
 bool is_prime(int number)
 {
-	//write is_prime function code here
 	for ( int i=1; i<=number; i++)
 	{
 		if (number % i == 0)
