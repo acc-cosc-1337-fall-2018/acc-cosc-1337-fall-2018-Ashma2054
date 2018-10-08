@@ -3,7 +3,7 @@
 
 using std::vector; using std::string;
 
-//int vector_of_ints();
+
 
 /*
 Write a value return function with a vector of ints list reference parameter
@@ -14,6 +14,8 @@ that returns the maximum value of the list
 
 */
 int get_max_from_vector(vector<int>& numbers);
+
+
 
 /*
 Write a value function sum_of_squares with a vector of ints list reference parameter
@@ -77,4 +79,5 @@ Psuedocode:
 	make sure to return vector of ints primes after loop exits
 */
 //write function prototype here
-int vector_of_primes(int number);
+
+vector<int> vector_of_primes(int number);
