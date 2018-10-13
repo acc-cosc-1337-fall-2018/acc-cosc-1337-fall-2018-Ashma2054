@@ -42,7 +42,11 @@ int main()
 
 	//write code to call vector_of_primes, save return value to a vector of ints
 	//output each int in the return vector
-	vector_of_primes(10);
+	vector<int>primes = vector_of_primes(10);
+	for (auto prime : primes) 
+	{
+		std::cout << prime;
+	}
 
 
 	return 0;
