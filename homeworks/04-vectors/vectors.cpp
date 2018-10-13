@@ -5,12 +5,12 @@ using std::vector;
 
 int get_max_from_vector(vector<int>& numbers)
 {
-	vector<int> vector1;
+	
 	int max_number{0};
-	for (int i =0; i <=vector1.size(); i++)
+	for (int i =0; i < numbers.size(); i++)
 	{
-		if (vector1[i] > max_number)
-			max_number = vector1[i];
+		if (numbers[i] > max_number)
+			max_number = numbers[i];
 	}
 
 	return max_number;
@@ -18,11 +18,10 @@ int get_max_from_vector(vector<int>& numbers)
 
 int sum_of_squares(vector<int>& numbers)
 {
-	vector<int> vector2;
 	int squared_number{ 0 };
 	int total{ 0 };
 
-	for (auto i : vector2)
+	for (auto i : numbers)
 	{
 		squared_number = i * i;
 		total += squared_number;
@@ -43,12 +42,11 @@ void replace(vector<string>& strings, const string& old, const string& new_val)
 	//points to a previously declared vector of strings variable(see test case 
 	//in vectors_test.cp)
 
-	vector<string> names;
 
-	for (int i =0; i<= names.size();i++)
+	for (int i =0; i< strings.size();i++)
 	{
-		if (names[i] == old) 
-		names[i] = new_val;
+		if (strings[i] == old) 
+		strings[i] = new_val;
 	}
 
 }
